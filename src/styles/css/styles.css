@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Oxygen:wght@400;700&display=swap");
+.container {
+  display: flex;
+}
+
+.wrapper {
+  margin: 0 5vw;
+}
+
+.container2of3 {
+  flex: 2;
+  display: flex;
+}
+
+.container1of3 {
+  flex: 1;
+  display: flex;
+}
+
+.content-container {
+  padding: 20px 25px 6px 25px;
+  background-color: rgba(93, 99, 104, 0.3);
+  border: 2px solid rgba(132, 132, 132, 0.3);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: none;
+  margin-bottom: 1vw;
+  flex: 1;
+}
+
+h6 {
+  font-size: 0.3vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+h5 {
+  font-size: 0.6vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+h4 {
+  font-size: 0.9vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+h3 {
+  font-size: 1.2vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+h2 {
+  font-size: 1.5vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+h1 {
+  font-size: 1.8vw;
+  font-family: "Oxygen", sans-serif;
+}
+
+nav {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+.vl {
+  border-left: 3px solid white;
+  height: 23px;
+  margin: 0px 12px;
+  margin-bottom: 3px;
+}
+
+.author-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: rgba(93, 99, 104, 0.6);
+  border: 2px solid rgba(132, 132, 132, 0.6);
+  height: 500px;
+  border-radius: 15px;
+  margin: 0 5vw;
+}
+
+.author-container .author-info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.author-container .author-info .author-header {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.author-container .author-details {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.author-container .author-details li {
+  display: flex;
+}
+
+.author-container .author-details li .author-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  width: 40px;
+}
+
+.author-container .author-details li .icon-description {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.repo-list-container {
+  flex: 1;
+}
+
+.repo-container .repo-name {
+  padding-left: 5px;
+  position: relative;
+  top: 0.32vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.repo-container .repo-name .fa-circle {
+  font-size: 5px;
+  padding-bottom: 0.5vw;
+  margin: 0 10px;
+}
+
+.repo-container .repo-name h4 {
+  padding-bottom: 0.15vw;
+  color: #bfbfbf;
+}
+
+.repo-container .content-container .content {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.repo-container .content-container:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.repo-container .content-container:hover .content {
+  color: black;
+}
+
+.repo-container .content-container:hover .repo-icons .fas {
+  color: black;
+}
+
+.repo-container .content-container:hover .repo-icons p {
+  color: black;
+}
+
+.repo-container .repo-icons {
+  display: flex;
+  justify-content: end;
+  font-size: 10px;
+}
+
+.repo-container .repo-icons .fas {
+  padding: 0 6px 0 13px;
+  color: #e6e6e6;
+}
+
+.repo-container .repo-icons p {
+  color: #bfbfbf;
+}
+
+.commit-list-container {
+  flex: 1;
+  margin-left: 5vw;
+}
+
+.commit-container .commit-name {
+  padding-left: 5px;
+  position: relative;
+  top: 0.32vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.commit-container .commit-name .fa-circle {
+  font-size: 5px;
+  padding-bottom: 0.5vw;
+  margin: 0 10px;
+}
+
+.commit-container .commit-name h4 {
+  padding-bottom: 0.15vw;
+  font-size: 0.8vw;
+  color: #bfbfbf;
+}
+
+.commit-container .content-container {
+  padding: 10px 25px 10px 25px;
+  border-color: rgba(178, 7, 16, 0.3);
+}
+
+.commit-container .content-container .content {
+  font-size: 10px;
+}
+
+.commit-container .content-container .user-avatar {
+  border-radius: 100%;
+  padding-right: 10px;
+}
+
+.commit-container .content-container .commiter {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Arvo", serif;
+}
+
+body {
+  background-image: url("../../images/nistri.png");
+  background-color: #848484;
+}
+
+.app {
+  background-image: linear-gradient(black, rgba(255, 0, 0, 0));
+  height: 100vh;
+}
+/*# sourceMappingURL=styles.css.map */

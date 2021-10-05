@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+}
+
+.wrapper {
+	margin: 0 5vw;
+}
+
+.container2of3 {
+	flex: 2;
+	display: flex;
+}
+.container1of3 {
+	flex: 1;
+	display: flex;
+}
+
+.content-container {
+	padding: 20px 25px 6px 25px;
+	background-color: rgba($primary-color, 0.3);
+	border: 2px solid rgba($light-color, 0.3);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top: none;
+	margin-bottom: 1vw;
+	flex: 1;
+}
+
+@for $i from 1 through 6 {
+	h#{7 - $i} {
+		font-size: $i * 0.3vw;
+		font-family: $font-header;
+	}
+}
