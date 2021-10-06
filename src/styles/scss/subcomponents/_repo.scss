@@ -15,7 +15,7 @@
 		}
 		h4 {
 			padding-bottom: 0.15vw;
-			color: darken(white, 25%);
+			color: darken(white, 15%);
 		}
 	}
 	.content-container {
@@ -26,6 +26,7 @@
 	}
 	.content-container:hover {
 		background-color: rgba(white, 0.2);
+		cursor: pointer;
 		.content {
 			color: black;
 		}
@@ -40,7 +41,7 @@
 	}
 	.repo-icons {
 		display: flex;
-		justify-content: end;
+		justify-content: flex-end;
 		font-size: 10px;
 
 		.fas {
@@ -48,6 +49,7 @@
 			color: darken(white, 10%);
 		}
 		p {
+			font-family: $font-header;
 			color: darken(white, 25%);
 		}
 	}

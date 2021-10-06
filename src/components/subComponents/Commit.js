@@ -1,21 +1,32 @@
-const Commit = () => {
-	let userAvatar = null;
+import React from 'react';
+
+const Commit = ({ commit }) => {
 	return (
 		<div className='commit-container'>
-			<div className='commit-name'>
-				<h3>CommitName</h3>
-				<i class='fas fa-circle'></i>
-				<h4>CommitHash</h4>
+			<div className='commit-header'>
+				<h3 className='commit-name' style={{ flex: 1 }}>
+					{commit.commit.message}
+				</h3>
+				<i className='fas fa-circle'></i>
+				<h4>{commit.sha}</h4>
 			</div>
 			<div className='content-container'>
 				<div className='commiter'>
-					{userAvatar ? (
-						<img className='user-avatar' src='' alt='id' />
+					{commit.author ? (
+						<img
+							className='user-avatar'
+							src={commit.author.avatar_url}
+							alt='id'
+							style={{ width: '20px', height: '20px' }}
+						/>
 					) : (
-						<i class='fas fa-user user-avatar'></i>
+						<i className='fas fa-user user-avatar'></i>
 					)}
 					<p className='content'>
-						UserName has commited on December 3rd 2021.
+						{commit.author
+							? commit.author.login
+							: commit.commit.author.name}{' '}
+						has commited on {commit.commit.author.date}.
 					</p>
 				</div>
 			</div>

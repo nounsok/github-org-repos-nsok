@@ -82,23 +82,25 @@ nav {
   padding: 40px;
   background-color: rgba(93, 99, 104, 0.6);
   border: 2px solid rgba(132, 132, 132, 0.6);
-  height: 500px;
+  max-width: 25vw;
+  min-height: 500px;
   border-radius: 15px;
   margin: 0 5vw;
 }
 
 .author-container .author-info {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .author-container .author-info .author-header {
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 .author-container .author-details {
   flex: 1;
+  overflow-wrap: anywhere;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -143,7 +145,7 @@ nav {
 
 .repo-container .repo-name h4 {
   padding-bottom: 0.15vw;
-  color: #bfbfbf;
+  color: #d9d9d9;
 }
 
 .repo-container .content-container .content {
@@ -153,6 +155,7 @@ nav {
 
 .repo-container .content-container:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
 }
 
 .repo-container .content-container:hover .content {
@@ -169,7 +172,7 @@ nav {
 
 .repo-container .repo-icons {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-size: 10px;
 }
 
@@ -179,6 +182,7 @@ nav {
 }
 
 .repo-container .repo-icons p {
+  font-family: "Oxygen", sans-serif;
   color: #bfbfbf;
 }
 
@@ -187,24 +191,29 @@ nav {
   margin-left: 5vw;
 }
 
-.commit-container .commit-name {
+.commit-container .commit-header {
   padding-left: 5px;
   position: relative;
   top: 0.32vw;
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
 }
 
-.commit-container .commit-name .fa-circle {
+.commit-container .commit-header .commit-name {
+  font-size: 1vw;
+}
+
+.commit-container .commit-header .fa-circle {
   font-size: 5px;
   padding-bottom: 0.5vw;
   margin: 0 10px;
 }
 
-.commit-container .commit-name h4 {
+.commit-container .commit-header h4 {
   padding-bottom: 0.15vw;
   font-size: 0.8vw;
-  color: #bfbfbf;
+  color: #d9d9d9;
 }
 
 .commit-container .content-container {
@@ -218,7 +227,7 @@ nav {
 
 .commit-container .content-container .user-avatar {
   border-radius: 100%;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .commit-container .content-container .commiter {

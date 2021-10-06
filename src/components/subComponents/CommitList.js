@@ -1,12 +1,21 @@
+import React, { useEffect, useState } from 'react';
 import Commit from './Commit';
-const CommitList = () => {
+import { getCommits } from '../../gitAPI';
+
+const CommitList = ({ org, repo }) => {
+	useEffect(() => {
+		getCommits(org, repo).then((response) => {
+			setCommits(response);
+		});
+	}, [org, repo]);
+
+	const [commits, setCommits] = useState([]);
+
 	return (
 		<div className='commit-list-container'>
-			<Commit />
-			<Commit />
-			<Commit />
-			<Commit />
-			<Commit />
+			{commits.map((commit) => {
+				return <Commit commit={commit} key={commit.sha} />;
+			})}
 		</div>
 	);
 };
