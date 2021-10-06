@@ -62,6 +62,12 @@ nav {
   padding: 30px 0px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -109,20 +115,29 @@ nav {
 
 .author-container .author-details li {
   display: flex;
+  display: flex;
 }
 
 .author-container .author-details li .author-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 40px;
   font-size: 35px;
-  width: 40px;
 }
 
 .author-container .author-details li .icon-description {
   margin-left: 15px;
   display: flex;
   align-items: center;
+}
+
+.author-container .author-details li .icon-description a {
+  text-decoration: none;
+}
+
+.author-container .author-details li .icon-description a:hover {
+  color: black;
 }
 
 .repo-list-container {
@@ -233,6 +248,36 @@ nav {
 .commit-container .content-container .commiter {
   display: flex;
   align-items: center;
+}
+
+.search {
+  display: flex;
+  width: 25vw;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: rgba(93, 99, 104, 0.7);
+  border-radius: 10px;
+}
+
+.search .fa-search {
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.search .btn {
+  width: 15vw;
 }
 
 * {

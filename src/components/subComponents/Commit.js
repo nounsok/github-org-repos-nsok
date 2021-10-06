@@ -26,7 +26,12 @@ const Commit = ({ commit }) => {
 						{commit.author
 							? commit.author.login
 							: commit.commit.author.name}{' '}
-						has commited on {commit.commit.author.date}.
+						has commited on{' '}
+						{new Date(commit.commit.author.date).toLocaleDateString(
+							'en-US',
+							{ month: 'long', day: 'numeric', year: 'numeric' }
+						)}
+						.
 					</p>
 				</div>
 			</div>

@@ -1,15 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { getAuthor } from '../../gitAPI';
-
-const Author = ({ org }) => {
-	useEffect(() => {
-		setTimeout(() => {
-			getAuthor(org).then((response) => setAuthor(response));
-		}, 1000);
-	}, [org]);
-
-	const [author, setAuthor] = useState({});
-
+import React from 'react';
+const Author = ({ author }) => {
 	return (
 		<div className='author-container'>
 			<div className='author-info'>
@@ -45,7 +35,7 @@ const Author = ({ org }) => {
 						<i className='fab fa-github'></i>
 					</div>
 					<div className='icon-description'>
-						<p>{author.html_url}</p>
+						<a href={author.html_url}>{author.html_url}</a>
 					</div>
 				</li>
 				<li>
@@ -53,7 +43,7 @@ const Author = ({ org }) => {
 						<i className='fas fa-link'></i>
 					</div>
 					<div className='icon-description'>
-						<p>{author.url}</p>
+						<a href={author.url}>{author.url}</a>
 					</div>
 				</li>
 				<li>
@@ -61,7 +51,7 @@ const Author = ({ org }) => {
 						<i className='fas fa-envelope'></i>
 					</div>
 					<div className='icon-description'>
-						<p>{author.email}</p>
+						<a href={`mailto:${author.html_url}`}>{author.email}</a>
 					</div>
 				</li>
 				<li>

@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import Repo from './Repo';
+import RepoPlaceholder from './RepoPlaceholder';
 import { getRepos } from '../../gitAPI';
 
 const RepoList = ({ org }) => {
@@ -14,11 +15,24 @@ const RepoList = ({ org }) => {
 	const [repos, setRepos] = useState([]);
 
 	return (
-		<div className='repo-list-container'>
-			{repos.map((repo) => {
-				return <Repo repo={repo} key={repo.id} />;
-			})}
-		</div>
+		<Fragment>
+			{repos.length === 0 ? (
+				<div className='repo-list-container'>
+					<RepoPlaceholder />
+					<RepoPlaceholder />
+					<RepoPlaceholder />
+					<RepoPlaceholder />
+					<RepoPlaceholder />
+					<RepoPlaceholder />
+				</div>
+			) : (
+				<div className='repo-list-container'>
+					{repos.map((repo) => {
+						return <Repo repo={repo} key={repo.id} />;
+					})}
+				</div>
+			)}
+		</Fragment>
 	);
 };
 

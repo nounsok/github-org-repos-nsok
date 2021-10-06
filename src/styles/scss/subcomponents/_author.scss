@@ -26,17 +26,24 @@
 		flex-direction: column;
 		justify-content: space-between;
 		li {
+			display: flex;
 			.author-icon {
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				min-width: 40px;
 				font-size: 35px;
-				width: 40px;
 			}
 			.icon-description {
 				margin-left: 15px;
 				display: flex;
 				align-items: center;
+				a {
+					text-decoration: none;
+				}
+				a:hover {
+					color: black;
+				}
 			}
 			display: flex;
 		}
