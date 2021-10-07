@@ -1,0 +1,51 @@
+.author-container {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	padding: 2.5vw;
+	background-color: rgba($primary-color, 0.6);
+	border: 2px solid rgba($light-color, 0.6);
+	max-width: 25vw;
+	min-height: 500px;
+	border-radius: 15px;
+	margin: 0 5vw;
+
+	.author-info {
+		display: flex;
+		margin-bottom: 25px;
+		.author-header {
+			font-size: 2vw;
+			margin-left: 16px;
+		}
+	}
+	.author-details {
+		flex: 1;
+		overflow-wrap: anywhere;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		li {
+			display: flex;
+			.author-icon {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-width: 40px;
+				font-size: 35px;
+			}
+			.icon-description {
+				margin-left: 15px;
+				display: flex;
+				align-items: center;
+				a {
+					text-decoration: none;
+				}
+				a:hover {
+					color: black;
+				}
+			}
+			display: flex;
+		}
+	}
+}

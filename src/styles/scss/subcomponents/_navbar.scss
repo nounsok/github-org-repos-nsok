@@ -1,0 +1,22 @@
+nav {
+	padding: 30px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logos {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 30px;
+}
+
+.vl {
+	border-left: 3px solid white;
+	height: 23px;
+	margin: 0px 12px;
+	margin-bottom: 3px;
+}

@@ -1,0 +1,26 @@
+@import 'config';
+@import 'util';
+@import 'subcomponents/navbar';
+@import 'subcomponents/author';
+@import 'subcomponents/repo';
+@import 'subcomponents/commit';
+@import 'subcomponents/search';
+@import 'responsive';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: $font-text;
+}
+
+body {
+	background-image: url('../../images/nistri.png');
+	background-color: $light-color;
+}
+
+.app {
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 0, 0));
+	height: 100vh;
+}
