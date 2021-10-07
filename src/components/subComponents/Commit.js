@@ -7,8 +7,10 @@ const Commit = ({ commit }) => {
 				<h3 className='commit-name' style={{ flex: 1 }}>
 					{commit.commit.message}
 				</h3>
-				<i className='fas fa-circle'></i>
-				<h4>{commit.sha}</h4>
+				<div style={{ display: 'flex', alignItems: 'center' }}>
+					<i className='fas fa-circle'></i>
+					<h4>{commit.sha}</h4>
+				</div>
 			</div>
 			<div className='content-container'>
 				<div className='commiter'>

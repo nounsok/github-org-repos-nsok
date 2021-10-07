@@ -144,7 +144,7 @@ nav {
   flex: 1;
 }
 
-.repo-container .repo-name {
+.repo-container .repo-header {
   padding-left: 5px;
   position: relative;
   top: 4.5px;
@@ -152,14 +152,13 @@ nav {
   align-items: flex-end;
 }
 
-.repo-container .repo-name .fa-circle {
+.repo-container .repo-header .fa-circle {
   font-size: 5px;
-  padding-bottom: 0.5vw;
   margin: 0 10px;
 }
 
-.repo-container .repo-name h4 {
-  padding-bottom: 0.15vw;
+.repo-container .repo-header h4 {
+  padding-bottom: 2px;
   color: #d9d9d9;
 }
 
@@ -217,12 +216,11 @@ nav {
 
 .commit-container .commit-header .fa-circle {
   font-size: 5px;
-  padding-bottom: 0.5vw;
   margin: 0 10px;
 }
 
 .commit-container .commit-header h4 {
-  padding-bottom: 0.15vw;
+  padding-bottom: 1.5px;
   color: #d9d9d9;
 }
 
@@ -287,6 +285,40 @@ nav {
   }
   nav .search {
     width: auto;
+  }
+  .commit-container .commit-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .repo-container .repo-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .repo-container .repo-header h2 {
+    font-size: 16px;
+  }
+  .repo-container .content-container .content {
+    font-size: 11px;
+    padding-bottom: 5px;
+  }
+  .commit-container .commit-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .commit-container .commit-header .commit-name {
+    font-size: 12px;
+  }
+  .commit-container .commit-header .fa-circle {
+    font-size: 5px;
+  }
+  .commit-container .commit-header h4 {
+    font-size: 10px;
+  }
+  .commit-container .content-container .content {
+    font-size: 9px;
   }
 }
 

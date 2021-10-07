@@ -8,19 +8,21 @@ const Repo = ({ repo }) => {
 	return (
 		<Fragment>
 			<div className='repo-container'>
-				<div className='repo-name'>
+				<div className='repo-header'>
 					<h2>{repo.full_name}</h2>
-					<i className='fas fa-circle'></i>
-					<h4>{repo.language}</h4>
-					<i className='fas fa-circle'></i>
-					<h4>
-						Created:{' '}
-						{new Date(repo.created_at).toLocaleDateString('en-US', {
-							month: 'long',
-							day: 'numeric',
-							year: 'numeric'
-						})}
-					</h4>
+					<div style={{ display: 'flex', alignItems: 'center' }}>
+						<i className='fas fa-circle'></i>
+						<h4>{repo.language}</h4>
+						<i className='fas fa-circle'></i>
+						<h4>
+							Created:{' '}
+							{new Date(repo.created_at).toLocaleDateString('en-US', {
+								month: 'long',
+								day: 'numeric',
+								year: 'numeric'
+							})}
+						</h4>
+					</div>
 				</div>
 				<div
 					className='content-container'
