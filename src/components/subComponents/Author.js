@@ -6,7 +6,7 @@ const Author = ({ author }) => {
 				<img
 					src={author.avatar_url}
 					style={{ width: '7.6vw', height: '7.6vw' }}
-					alt='alt source'
+					alt='Author Avatar'
 				></img>
 				<h2 className='author-header'>
 					{author.name} Repositories on Github
@@ -19,7 +19,9 @@ const Author = ({ author }) => {
 						<i className='fas fa-boxes'></i>
 					</div>
 					<div className='icon-description'>
-						<p>{author.public_repos} Repositories</p>
+						{author.public_repos ? (
+							<p>{author.public_repos} Repositories</p>
+						) : null}
 					</div>
 				</li>
 				<li>

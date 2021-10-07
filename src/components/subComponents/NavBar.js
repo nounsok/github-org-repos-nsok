@@ -3,16 +3,20 @@ import netflixLogo from '../../images/netflix-logo.png';
 import githubLogo from '../../images/github-logo.png';
 import SearchBar from './SearchBar';
 
-const NavBar = () => {
+const NavBar = ({ org, searchOrganization }) => {
 	return (
 		<nav>
 			<div className='logos'>
-				<img className='logo' src={netflixLogo} alt='netflix-logo' />
+				{org === 'Netflix' ? (
+					<img className='logo' src={netflixLogo} alt='netflix-logo' />
+				) : (
+					<h1>{org}</h1>
+				)}
 				<div className='vl'></div>
 				<img className='logo' src={githubLogo} alt='github-logo' />
 			</div>
 
-			<SearchBar />
+			<SearchBar searchOrganization={searchOrganization} />
 		</nav>
 	);
 };

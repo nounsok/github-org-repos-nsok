@@ -6,6 +6,7 @@ export const getAuthor = async (org) => {
 		return result.data;
 	} catch (err) {
 		console.log(err);
+		return {};
 	}
 };
 
@@ -17,6 +18,7 @@ export const getRepos = async (org) => {
 		return result.data;
 	} catch (err) {
 		console.log(err);
+		return [];
 	}
 };
 
@@ -28,5 +30,6 @@ export const getCommits = async (org, repo) => {
 		return result.data;
 	} catch (err) {
 		console.log(err);
+		return [];
 	}
 };

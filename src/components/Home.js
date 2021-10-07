@@ -4,9 +4,9 @@ import RepoList from './subComponents/RepoList';
 import Spinner from './subComponents/Spinner';
 import { getAuthor } from './../gitAPI';
 
-const Home = () => {
+const Home = ({ org }) => {
 	const [author, setAuthor] = useState({});
-	const [org, setOrg] = useState('Netflix');
+
 	useEffect(() => {
 		getAuthor(org).then((response) => setAuthor(response));
 	}, [org]);
