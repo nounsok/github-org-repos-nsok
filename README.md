@@ -1,6 +1,6 @@
 # Github Organization Repos
 
-This is a responsive user interface that allows you to access github organization's repositories.
+This is a responsive user interface that allows you to access github organization's repositories.\n
 Author: Noun (Justina) Sok
 
 ## Live Site
@@ -9,10 +9,10 @@ Heroku:https://github-org-repos-nsok.herokuapp.com/
 
 ## Images
 
-![plot](./displayImage/git-repo-1.png)
-![plot](./displayImage/git-repo-2.png)
-![plot](./displayImage/git-repo-3.png)
-![plot](./displayImage/git-repo-4.png)
+<img src="./displayImage/git-repo-1.png" height="350" title="displayImage1">
+<img src="./displayImage/git-repo-2.png" height="350" title="displayImage2">
+<img src="./displayImage/git-repo-3.png" height="350" title="displayImage3">
+<img src="./displayImage/git-repo-4.png" height="350" title="displayImage4">
 
 ## Getting Started with Create React App
 
