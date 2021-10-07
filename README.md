@@ -1,6 +1,6 @@
 # Github Organization Repos
 
-This is a responsive user interface that allows you to access github organization's repositories.\n
+This is a **responsive** user interface that allows you to access github organization's repositories.<br />
 Author: Noun (Justina) Sok
 
 ## Live Site
