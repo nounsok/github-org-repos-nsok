@@ -9,10 +9,10 @@ GitHub Pages: https://nounsok.github.io/github-org-repos-nsok/
 
 ## Images
 
-![Alt text](./displayImage/git-repo-1.png?raw=true 'displayImage1')
-![Alt text](./displayImage/git-repo-2.png?raw=true 'displayImage2')
-![Alt text](./displayImage/git-repo-3.png?raw=true 'displayImage3')
-![Alt text](./displayImage/git-repo-4.png?raw=true 'displayImage4')
+![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-1.png?raw=true)
+![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true)
+![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-3.png?raw=true)
+![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-4.png?raw=true)
 
 ## Getting Started with Create React App
 
