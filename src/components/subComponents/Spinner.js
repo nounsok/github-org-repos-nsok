@@ -1,11 +1,10 @@
 import React from 'react';
-import spinner from '../../images/Spinner.svg';
+import { ReactComponent as Loading } from '../../images/Spinner.svg';
 
 const Spinner = () => {
 	return (
 		<div style={{ position: 'relative' }}>
-			<img
-				src={spinner}
+			<Loading
 				alt='spinner'
 				style={{
 					position: 'fixed',
@@ -13,7 +12,7 @@ const Spinner = () => {
 					left: '50%',
 					transform: 'translate(-50%, -50%)'
 				}}
-			></img>
+			/>
 		</div>
 	);
 };
