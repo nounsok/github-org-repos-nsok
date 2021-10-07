@@ -2,7 +2,7 @@
 	position: fixed;
 	display: flex;
 	flex-direction: column;
-	padding: 40px;
+	padding: 2.5vw;
 	background-color: rgba($primary-color, 0.6);
 	border: 2px solid rgba($light-color, 0.6);
 	max-width: 25vw;
@@ -14,7 +14,7 @@
 		display: flex;
 		margin-bottom: 25px;
 		.author-header {
-			font-size: 25px;
+			font-size: 2vw;
 			margin-left: 16px;
 		}
 	}

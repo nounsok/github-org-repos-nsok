@@ -5,7 +5,7 @@ const Author = ({ author }) => {
 			<div className='author-info'>
 				<img
 					src={author.avatar_url}
-					style={{ width: '100px', height: '100px' }}
+					style={{ width: '7.6vw', height: '7.6vw' }}
 					alt='alt source'
 				></img>
 				<h2 className='author-header'>

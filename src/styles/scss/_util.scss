@@ -28,7 +28,7 @@
 
 @for $i from 1 through 6 {
 	h#{7 - $i} {
-		font-size: $i * 0.3vw;
+		font-size: $i * 4px;
 		font-family: $font-header;
 	}
 }

@@ -29,32 +29,32 @@
 }
 
 h6 {
-  font-size: 0.3vw;
+  font-size: 4px;
   font-family: "Oxygen", sans-serif;
 }
 
 h5 {
-  font-size: 0.6vw;
+  font-size: 8px;
   font-family: "Oxygen", sans-serif;
 }
 
 h4 {
-  font-size: 0.9vw;
+  font-size: 12px;
   font-family: "Oxygen", sans-serif;
 }
 
 h3 {
-  font-size: 1.2vw;
+  font-size: 16px;
   font-family: "Oxygen", sans-serif;
 }
 
 h2 {
-  font-size: 1.5vw;
+  font-size: 20px;
   font-family: "Oxygen", sans-serif;
 }
 
 h1 {
-  font-size: 1.8vw;
+  font-size: 24px;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -85,7 +85,7 @@ nav {
   position: fixed;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 2.5vw;
   background-color: rgba(93, 99, 104, 0.6);
   border: 2px solid rgba(132, 132, 132, 0.6);
   max-width: 25vw;
@@ -100,7 +100,7 @@ nav {
 }
 
 .author-container .author-info .author-header {
-  font-size: 25px;
+  font-size: 2vw;
   margin-left: 16px;
 }
 
@@ -147,7 +147,7 @@ nav {
 .repo-container .repo-name {
   padding-left: 5px;
   position: relative;
-  top: 0.32vw;
+  top: 4.5px;
   display: flex;
   align-items: flex-end;
 }
@@ -209,14 +209,10 @@ nav {
 .commit-container .commit-header {
   padding-left: 5px;
   position: relative;
-  top: 0.32vw;
+  top: 4px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-}
-
-.commit-container .commit-header .commit-name {
-  font-size: 1vw;
 }
 
 .commit-container .commit-header .fa-circle {
@@ -227,7 +223,6 @@ nav {
 
 .commit-container .commit-header h4 {
   padding-bottom: 0.15vw;
-  font-size: 0.8vw;
   color: #d9d9d9;
 }
 
@@ -278,6 +273,21 @@ nav {
 
 .search .btn {
   width: 15vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container1of3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  nav {
+    flex-direction: column;
+  }
+  nav .search {
+    width: auto;
+  }
 }
 
 * {

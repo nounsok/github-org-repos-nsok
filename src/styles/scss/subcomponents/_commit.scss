@@ -6,13 +6,11 @@
 	.commit-header {
 		padding-left: 5px;
 		position: relative;
-		top: 0.32vw;
+		top: 4px;
 		display: flex;
 		align-items: flex-end;
 		overflow: hidden;
-		.commit-name {
-			font-size: 1vw;
-		}
+
 		.fa-circle {
 			font-size: 5px;
 			padding-bottom: 0.5vw;
@@ -20,7 +18,6 @@
 		}
 		h4 {
 			padding-bottom: 0.15vw;
-			font-size: 0.8vw;
 			color: darken(white, 15%);
 		}
 	}
