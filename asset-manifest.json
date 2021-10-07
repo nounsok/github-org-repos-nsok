@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/github-org-repos-nsok/static/css/main.093f74a0.chunk.css",
-    "main.js": "/github-org-repos-nsok/static/js/main.9290ad0d.chunk.js",
-    "main.js.map": "/github-org-repos-nsok/static/js/main.9290ad0d.chunk.js.map",
+    "main.css": "/github-org-repos-nsok/static/css/main.327d5321.chunk.css",
+    "main.js": "/github-org-repos-nsok/static/js/main.d0b6f3f5.chunk.js",
+    "main.js.map": "/github-org-repos-nsok/static/js/main.d0b6f3f5.chunk.js.map",
     "runtime-main.js": "/github-org-repos-nsok/static/js/runtime-main.1deeaabb.js",
     "runtime-main.js.map": "/github-org-repos-nsok/static/js/runtime-main.1deeaabb.js.map",
     "static/js/2.40feb81c.chunk.js": "/github-org-repos-nsok/static/js/2.40feb81c.chunk.js",
     "static/js/2.40feb81c.chunk.js.map": "/github-org-repos-nsok/static/js/2.40feb81c.chunk.js.map",
     "index.html": "/github-org-repos-nsok/index.html",
-    "static/css/main.093f74a0.chunk.css.map": "/github-org-repos-nsok/static/css/main.093f74a0.chunk.css.map",
+    "static/css/main.327d5321.chunk.css.map": "/github-org-repos-nsok/static/css/main.327d5321.chunk.css.map",
     "static/js/2.40feb81c.chunk.js.LICENSE.txt": "/github-org-repos-nsok/static/js/2.40feb81c.chunk.js.LICENSE.txt",
     "static/media/Spinner.5db06520.svg": "/github-org-repos-nsok/static/media/Spinner.5db06520.svg",
     "static/media/github-logo.093c54f2.png": "/github-org-repos-nsok/static/media/github-logo.093c54f2.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.1deeaabb.js",
     "static/js/2.40feb81c.chunk.js",
-    "static/css/main.093f74a0.chunk.css",
-    "static/js/main.9290ad0d.chunk.js"
+    "static/css/main.327d5321.chunk.css",
+    "static/js/main.d0b6f3f5.chunk.js"
   ]
 }
