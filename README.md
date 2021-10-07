@@ -5,14 +5,14 @@ Author: Noun (Justina) Sok
 
 ## Live Site
 
-Heroku:https://github-org-repos-nsok.herokuapp.com/
+GitHub Pages: https://nounsok.github.io/github-org-repos-nsok/
 
 ## Images
 
-<img src="./displayImage/git-repo-1.png" height="350" title="displayImage1">
-<img src="./displayImage/git-repo-2.png" height="350" title="displayImage2">
-<img src="./displayImage/git-repo-3.png" height="350" title="displayImage3">
-<img src="./displayImage/git-repo-4.png" height="350" title="displayImage4">
+![Alt text](./displayImage/git-repo-1.png?raw=true 'displayImage1')
+![Alt text](./displayImage/git-repo-2.png?raw=true 'displayImage2')
+![Alt text](./displayImage/git-repo-3.png?raw=true 'displayImage3')
+![Alt text](./displayImage/git-repo-4.png?raw=true 'displayImage4')
 
 ## Getting Started with Create React App
 
