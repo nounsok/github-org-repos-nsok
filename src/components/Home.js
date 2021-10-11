@@ -22,7 +22,7 @@ const Home = ({ org }) => {
 
 	useEffect(() => {
 		setLoading(true);
-		getAuthor(org, 1)
+		getAuthor(org)
 			.then((response) => {
 				getRepos(org, response.public_repos)
 					.then((res) => {
