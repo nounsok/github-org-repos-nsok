@@ -23,9 +23,9 @@ GitHub Pages: https://nounsok.github.io/github-org-repos-nsok/
 
 ### Mobile
 
-<img src="https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true" alt="img2" height="300"/>
+<img src="https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-3.png?raw=true" alt="img3" height="300"/>
 
-<!-- ![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true) -->
+<!-- ![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-3.png?raw=true) -->
 
 ## Getting Started with Create React App
 
