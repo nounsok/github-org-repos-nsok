@@ -168,7 +168,7 @@ nav {
 }
 
 .repo-container .content-container:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
 }
 
@@ -335,8 +335,13 @@ body {
   background-color: #848484;
 }
 
-.app {
+.background {
+  position: fixed;
   background-image: linear-gradient(black, rgba(255, 0, 0, 0));
   height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 /*# sourceMappingURL=styles.css.map */

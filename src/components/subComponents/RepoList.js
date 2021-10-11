@@ -1,19 +1,8 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment } from 'react';
 import Repo from './Repo';
 import RepoPlaceholder from './RepoPlaceholder';
-import { getRepos } from '../../gitAPI';
 
-const RepoList = ({ org }) => {
-	useEffect(() => {
-		getRepos(org).then((response) => {
-			setRepos(
-				response.sort((a, b) => b.stargazers_count - a.stargazers_count)
-			);
-		});
-	}, [org]);
-
-	const [repos, setRepos] = useState([]);
-
+const RepoList = ({ repos }) => {
 	return (
 		<Fragment>
 			{repos.length === 0 ? (

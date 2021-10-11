@@ -15,6 +15,7 @@ function App() {
 				<Navbar org={org} searchOrganization={searchOrganization} />
 				<Home org={org} />
 			</div>
+			<div className='background'></div>
 		</div>
 	);
 }

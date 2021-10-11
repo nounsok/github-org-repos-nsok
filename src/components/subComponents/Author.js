@@ -8,9 +8,11 @@ const Author = ({ author }) => {
 					style={{ width: '7.6vw', height: '7.6vw' }}
 					alt='Author Avatar'
 				></img>
-				<h2 className='author-header'>
-					{author.name} Repositories on Github
-				</h2>
+				{author.name ? (
+					<h2 className='author-header'>
+						{author.name} Repositories on Github
+					</h2>
+				) : null}
 			</div>
 
 			<ul className='author-details'>
