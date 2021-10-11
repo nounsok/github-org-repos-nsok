@@ -2,6 +2,11 @@ import React, { Fragment, useState } from 'react';
 
 const SearchBar = ({ searchOrganization }) => {
 	const [input, setInput] = useState('');
+
+	function capitalizeFirstLetter(string) {
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
+
 	return (
 		<Fragment>
 			<div className='search'>
@@ -15,16 +20,17 @@ const SearchBar = ({ searchOrganization }) => {
 						name='search-input'
 						placeholder='Search for an organization'
 						onKeyDown={(e) => {
-							if (e.code === 'Enter') {
-								searchOrganization(input);
+							if (e.code === 'Enter' || e.which === 13) {
+								searchOrganization(
+									input !== ''
+										? capitalizeFirstLetter(input)
+										: 'Netflix'
+								);
+								setInput('');
 							}
 						}}
 					/>
 				</div>
-
-				{/* <Link to='/createkeep' className='btn btn-primary'>
-					{submit}
-				</Link> */}
 			</div>
 		</Fragment>
 	);

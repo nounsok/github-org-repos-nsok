@@ -13,7 +13,14 @@ const NavBar = ({ org, searchOrganization }) => {
 					<h1>{org}</h1>
 				)}
 				<div className='vl'></div>
-				<img className='logo' src={githubLogo} alt='github-logo' />
+				<img
+					className='logo'
+					src={githubLogo}
+					alt='github-logo'
+					onClick={() => {
+						searchOrganization('Github');
+					}}
+				/>
 			</div>
 
 			<SearchBar searchOrganization={searchOrganization} />

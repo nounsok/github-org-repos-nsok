@@ -10,6 +10,9 @@
 		display: flex;
 		align-items: flex-end;
 		overflow: hidden;
+		.commit-name {
+			max-width: 450px;
+		}
 
 		.fa-circle {
 			font-size: 5px;

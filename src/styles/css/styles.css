@@ -214,6 +214,10 @@ nav {
   overflow: hidden;
 }
 
+.commit-container .commit-header .commit-name {
+  max-width: 450px;
+}
+
 .commit-container .commit-header .fa-circle {
   font-size: 5px;
   margin: 0 10px;

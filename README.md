@@ -1,6 +1,6 @@
 # Github Organization Repos
 
-This is a **responsive** user interface that allows you to access github organization's repositories.<br />
+This is a **RESPONSIVE** user interface that allows you to access github organization's repositories.<br />
 Author: Noun (Justina) Sok
 
 ## Live Site
@@ -9,10 +9,23 @@ GitHub Pages: https://nounsok.github.io/github-org-repos-nsok/
 
 ## Images
 
-![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-1.png?raw=true)
-![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true)
-![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-3.png?raw=true)
-![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-4.png?raw=true)
+### Computer
+
+<img src="https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-1.png?raw=true" alt="img1" height="300"/>
+
+<!-- ![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-1.png?raw=true) -->
+
+### Tablet
+
+<img src="https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true" alt="img2" height="300"/>
+
+<!-- ![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true) -->
+
+### Mobile
+
+<img src="https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true" alt="img2" height="300"/>
+
+<!-- ![Alt text](https://github.com/nounsok/github-org-repos-nsok/blob/main/displayImages/git-repo-2.png?raw=true) -->
 
 ## Getting Started with Create React App
 
@@ -80,6 +93,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 #### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+#### `npm run deploy`
+
+Deploys on Github Pages.
 
 #### `npm run build` fails to minify
 

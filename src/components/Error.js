@@ -12,7 +12,7 @@ const Error = ({ status, message }) => {
 					fontSize: '60px'
 				}}
 			>
-				{status} ERROR!
+				{status} {status === 404 ? 'NOT FOUND' : 'ERROR!'}
 			</h1>
 		</Fragment>
 	);
